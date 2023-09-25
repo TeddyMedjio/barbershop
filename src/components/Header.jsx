@@ -34,10 +34,6 @@ const Header = () => {
           src="https://res.cloudinary.com/dqfd5g2fd/video/upload/v1695503459/zberj4pbi6qt6nb0eick.webm"
           type="video/webm"
         />
-        {/* <source
-          src="https://res.cloudinary.com/rga/video/upload/f_auto/q_auto/v1636982937/rga.com/RGA-WebHero-05_1_qs6x7a.ogv"
-          type="video/ogv"
-        /> */}
       </video>
       <div className=" text-center absolute top-1/2 md:top-[55%] left-1/2 transform -translate-x-1/2 -translate-y-1/2 md:w-[80%]">
         <h1 className=" uppercase text-center font-heading text-5xl md:text-6xl text-white leading-[60px] md:leading-[80px]">
@@ -50,6 +46,7 @@ const Header = () => {
           choix.
         </p>
         <Link
+          target="_blank"
           href="/img/grille_tarifaire.pdf"
           className="text-white tracking-widest hover:bg-black font-inter font-semibold px-6 md:px-16 py-3 uppercase absolute left-1/2 transform -translate-x-1/2 -translate-y-1/2 button transition-all duration-500 ease-in-out border border-gold rounded animate-pulse"
         >
