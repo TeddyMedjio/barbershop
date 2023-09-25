@@ -13,7 +13,9 @@ const Navbar = () => {
       {/* Mobile menu */}
       <section className="MOBILE-MENU flex lg:hidden z-[5000]">
         <div className="flex items-center justify-between w-full px-10">
-          <Image src={Logo} height={56} width={100} />
+          <Link href="/">
+            <Image src={Logo} height={56} width={100} />
+          </Link>
           <div
             className="HAMBURGER-ICON space-y-2 cursor-pointer"
             onClick={() => setIsNavOpen((prev) => !prev)}
@@ -24,9 +26,15 @@ const Navbar = () => {
           </div>
         </div>
 
-        <div className={isNavOpen ? "showMenuNav" : "hideMenuNav"}>
+        <div
+          className={
+            isNavOpen
+              ? "showMenuNav transition-all duration-700 ease-in"
+              : "hideMenuNav"
+          }
+        >
           <div
-            className="absolute top-0 right-0 p-8 cursor-pointer"
+            className="absolute top-6 right-2 p-8 cursor-pointer"
             onClick={() => setIsNavOpen(false)}
           >
             <svg
