@@ -122,13 +122,10 @@ export default function FancyTestimonialsSlider() {
           <button
             key={index}
             className={`inline-flex justify-center whitespace-nowrap rounded-full px-3 py-1.5 m-1.5 text-xs shadow-sm focus-visible:outline-none focus-visible:ring focus-visible:ring-indigo-300 dark:focus-visible:ring-slate-600 transition-colors duration-150 ${
-              active === index
-                ? "bg-gold text-white shadow-indigo-950/10"
-                : "bg-white hover:bg-light-gray hover:text-white "
+              active === index ? "bg-gold text-white" : "bg-white hover:bg-gold"
             }`}
             onClick={() => {
               setActive(index);
-              setAutorotate(false);
             }}
           >
             <span className="font-semibold font-inter">{testimonial.name}</span>{" "}

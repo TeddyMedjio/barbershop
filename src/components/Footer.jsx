@@ -19,19 +19,19 @@ const Footer = () => {
             <div>
               <Link
                 href="#"
-                className="text-white border border-gold px-5 py-1"
+                className="text-white border border-gold hover:bg-gold transition-all duration-700 ease-in-out px-5 py-1"
               >
                 Facebook
               </Link>
               <Link
                 href="#"
-                className="text-white border border-gold px-5 py-1 ml-4"
+                className="text-white border border-gold hover:bg-gold transition-all duration-700 ease-in-out px-5 py-1 ml-4"
               >
                 Instagram
               </Link>
               <Link
                 href="#"
-                className="text-white border border-gold px-5 py-1 ml-4"
+                className="text-white border border-gold hover:bg-gold transition-all duration-700 ease-in-out px-5 py-1 ml-4"
               >
                 Tiktok
               </Link>
@@ -44,27 +44,27 @@ const Footer = () => {
             </div>
             <div className="text-white flex items-center justify-between border-[#7C7C7C] border-b-[0.5px] py-1 mb-1">
               <p className="font-semibold">Mardi</p>
-              <p className="font-semibold">10h - 18hoo</p>
+              <p className="font-semibold">10h - 18h00</p>
             </div>
             <div className="text-white flex items-center justify-between border-[#7C7C7C] border-b-[0.5px] py-1 mb-1">
               <p className="font-semibold">Mercredi</p>
-              <p className="font-semibold">10h - 18hoo</p>
+              <p className="font-semibold">10h - 18h00</p>
             </div>
             <div className="text-white flex items-center justify-between border-[#7C7C7C] border-b-[0.5px] py-1 mb-1">
               <p className="font-semibold">Jeudi</p>
-              <p className="font-semibold">10h - 18hoo</p>
+              <p className="font-semibold">10h - 18h00</p>
             </div>
             <div className="text-white flex items-center justify-between border-[#7C7C7C] border-b-[0.5px] py-1 mb-1">
               <p className="font-semibold">Vendredi</p>
-              <p className="font-semibold">10h - 18hoo</p>
+              <p className="font-semibold">10h - 18h00</p>
             </div>
             <div className="text-white flex items-center justify-between border-[#7C7C7C] border-b-[0.5px] py-1 mb-1">
               <p className="font-semibold">Samedi</p>
-              <p className="font-semibold">10h - 18hoo</p>
+              <p className="font-semibold">10h - 18h00</p>
             </div>
             <div className="text-white flex items-center justify-between">
               <p className="font-semibold">Dimanche</p>
-              <p className="font-semibold">10h - 18hoo</p>
+              <p className="font-semibold">10h - 18h00</p>
             </div>
           </div>
         </div>

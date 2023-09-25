@@ -4,7 +4,7 @@ import bg from "../../public/img/bg2.jpg";
 
 const Talk = () => {
   return (
-    <div className="bg-black-gray py-20 px-5 md:px-10 lg:px-20 relative -z-40 flex flex-col items-center justify-center overflow-hidden">
+    <div className="bg-black-gray py-20 px-5 md:px-10 lg:px-20 relative flex flex-col items-center justify-center overflow-hidden z-[0]">
       <svg
         className="mb-20"
         width="303"
@@ -51,11 +51,11 @@ const Talk = () => {
         <circle cx="187.268" cy="95.3418" r="5.63994" fill="#E4BC7D" />
       </svg>
 
+      <FancyTestimonialsSlider />
       <Image
         src={bg}
-        className="hidden md:block absolute top-1/2 md:top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 h-full w-full object-cover -z-50 opacity-50 "
+        className="hidden md:block absolute top-1/2 md:top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 h-full w-full object-cover opacity-50 -z-50  "
       />
-      <FancyTestimonialsSlider />
     </div>
   );
 };
