@@ -9,7 +9,6 @@ import Navbar from "@/components/Navbar";
 import Signature from "@/components/Signature";
 import Talk from "@/components/Talk";
 import Whatsapp from "@/components/Whatsapp";
-// import arrow from "../../public/arrow.svg";
 
 export default function Home() {
   return (
@@ -45,12 +44,6 @@ export default function Home() {
             />
           </svg>
         </ScrollToTop>
-        {/* <button
-          onClick={scrollToTop}
-          className="absolute bottom-0 left-8 text-white bg-black z-10 rotate-180 p-5 rounded-full animate-pulse mt-[150vh]"
-        >
-          <Image src={arrow} height={30} />
-        </button> */}
         <Navbar />
         <Header />
         <About />

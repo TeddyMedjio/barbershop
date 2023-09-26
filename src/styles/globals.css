@@ -29,3 +29,30 @@
   align-items: center;
   z-index: 50;
 }
+
+.marquee__group {
+  z-index: 50;
+  animation: scroll infinite 55s linear;
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(calc(-166px * 4));
+  }
+}
+
+.marquee__grouptwo {
+  animation: scrolltwo infinite 65s linear;
+}
+
+@keyframes scrolltwo {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(calc(-166px * 4));
+  }
+}
