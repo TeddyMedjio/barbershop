@@ -11,7 +11,7 @@ const Navbar = () => {
   return (
     <div className="bg-gradient-to-b from-black-gray py-10 absolute w-full z-[5000]">
       {/* Mobile menu */}
-      <section className="MOBILE-MENU flex lg:hidden z-[5000]">
+      <section className="MOBILE-MENU flex md:hidden z-[5000]">
         <div className="flex items-center justify-between w-full px-10">
           <Link href="/">
             <Image src={Logo} height={56} width={100} />

@@ -19,13 +19,13 @@ const Footer = () => {
             <div>
               <Link
                 href="#"
-                className="text-white border border-gold hover:bg-gold transition-all duration-700 ease-in-out px-5 py-1"
+                className="text-white border border-gold hover:border-white hover:bg-[#3b5998] transition-all duration-700 ease-in-out px-5 py-1"
               >
                 Facebook
               </Link>
               <Link
                 href="#"
-                className="text-white border border-gold hover:bg-gold transition-all duration-700 ease-in-out px-5 py-1 ml-4"
+                className="text-white border border-gold hover:border-white hover:bg-gradient-to-br from-[#515BD4] via-[#8134AF] to-[#FEDA77] transition-all duration-700 ease-in-out px-5 py-1 ml-4"
               >
                 Instagram
               </Link>
