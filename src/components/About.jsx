@@ -64,7 +64,7 @@ const About = () => {
 
           <p className="text-white font-inter text-[14px] md:text-base mt-8 text-justify leading-6">
             C&apos;est un réseau de salon de coiffure à service complet, situé
-            dans l&apos;ensemble de nos stations de service Petrolex. Notre
+            dans l&apos;ensemble dans les stations service Petrolex. Notre
             objectif principal est de fournir à nos clients un service et une
             expérience irréprochable. Nous offrons à nos clients une ambiance
             conviviale où chaque client se sent valorisé. Nous nous spécialisons
