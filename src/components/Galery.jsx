@@ -10,7 +10,7 @@ import picture8 from "../../public/img/picture8.jpg";
 
 const Galery = () => {
   return (
-    <div className="bg-black-gray relative pb-20 overflow-x-hidden">
+    <div className="bg-black-gray relative pb-20 overflow-x-hidden ">
       <div className=" absolute top-0 h-32 bg-gradient-to-b from-black-gray w-full z-50"></div>
       <div className=" absolute bottom-20 h-32 bg-gradient-to-t from-black-gray w-full z-50"></div>
       <div className="marquee__group flex items-center min-w-full -z-50">
