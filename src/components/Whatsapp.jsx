@@ -7,7 +7,7 @@ const Whatsapp = () => {
   return (
     <div className="w-full relative">
       <Link
-        href="#"
+        href="https://wa.me/23799663863"
         className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-[#1CAE09] px-7 py-4  rounded border-white border flex items-center space-x-5 drop-shadow-lg hover:px-10 transition-all duration-500 ease-in-out"
       >
         <p className="text-white uppercase font-bold text-lg">Nous écrire</p>

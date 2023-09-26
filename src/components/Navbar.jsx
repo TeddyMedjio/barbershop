@@ -56,7 +56,7 @@ const Navbar = () => {
               <Link href="/">Acceuil</Link>
             </li>
             <li className="text-white border-b border-gold uppercase w-full py-8">
-              <Link target="_blank" href="#">
+              <Link target="_blank" href="https://wa.me/23799663863">
                 Réservez
               </Link>
             </li>
@@ -66,18 +66,6 @@ const Navbar = () => {
             <li className="text-white border-b border-gold uppercase w-full py-8">
               <Link href="#contact">contact</Link>
             </li>
-            {/* <li className="flex items-center mt-11">
-              <Link href="/">
-                <Image
-                  src={french}
-                  className="w-9 mr-5"
-                  alt="icon french flag"
-                />
-              </Link>
-              <Link href="/">
-                <Image src={german} className="w-9" alt="icon german flag" />
-              </Link>
-            </li> */}
           </ul>
         </div>
       </section>
@@ -95,7 +83,7 @@ const Navbar = () => {
         <li>
           <Link
             target="_blank"
-            href="#"
+            href="https://wa.me/23799663863"
             className="hover:text-gold transition-all duration-300 ease-in-out"
           >
             Réservez

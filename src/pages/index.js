@@ -1,5 +1,4 @@
 import ScrollToTop from "react-scroll-to-top";
-import Image from "next/image";
 import Head from "next/head";
 import About from "@/components/About";
 import Footer from "@/components/Footer";

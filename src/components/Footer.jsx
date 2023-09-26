@@ -14,7 +14,7 @@ const Footer = () => {
               <br /> BP 1590 Douala <br />{" "}
               <span className="text-gold"> Mail: </span>
               ozbarbershop237@gmail.com <br />
-              <span className="text-gold">Tél: </span> 6 99 68 17 56
+              <span className="text-gold">Tél: </span> 6 99 66 38 63
             </p>
             <div>
               <Link
@@ -44,27 +44,27 @@ const Footer = () => {
             </div>
             <div className="text-white flex items-center justify-between border-[#7C7C7C] border-b-[0.5px] py-1 mb-1">
               <p className="font-semibold">Mardi</p>
-              <p className="font-semibold">10h - 18h00</p>
+              <p className="font-semibold">08h - 20h30</p>
             </div>
             <div className="text-white flex items-center justify-between border-[#7C7C7C] border-b-[0.5px] py-1 mb-1">
               <p className="font-semibold">Mercredi</p>
-              <p className="font-semibold">10h - 18h00</p>
+              <p className="font-semibold">08h - 20h30</p>
             </div>
             <div className="text-white flex items-center justify-between border-[#7C7C7C] border-b-[0.5px] py-1 mb-1">
               <p className="font-semibold">Jeudi</p>
-              <p className="font-semibold">10h - 18h00</p>
+              <p className="font-semibold">08h - 20h30</p>
             </div>
             <div className="text-white flex items-center justify-between border-[#7C7C7C] border-b-[0.5px] py-1 mb-1">
               <p className="font-semibold">Vendredi</p>
-              <p className="font-semibold">10h - 18h00</p>
+              <p className="font-semibold">08h - 20h30</p>
             </div>
             <div className="text-white flex items-center justify-between border-[#7C7C7C] border-b-[0.5px] py-1 mb-1">
               <p className="font-semibold">Samedi</p>
-              <p className="font-semibold">10h - 18h00</p>
+              <p className="font-semibold">08h - 20h30</p>
             </div>
             <div className="text-white flex items-center justify-between">
               <p className="font-semibold">Dimanche</p>
-              <p className="font-semibold">10h - 18h00</p>
+              <p className="font-semibold">08h - 20h30</p>
             </div>
           </div>
         </div>
