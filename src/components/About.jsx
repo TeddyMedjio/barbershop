@@ -64,15 +64,14 @@ const About = () => {
 
           <p className="text-white font-inter text-[14px] md:text-base mt-8 text-justify leading-6">
             C&apos;est un réseau de salon de coiffure à service complet, situé
-            dans l&apos;ensemble dans les stations service Petrolex. Notre
-            objectif principal est de fournir à nos clients un service et une
-            expérience irréprochable. Nous offrons à nos clients une ambiance
-            conviviale où chaque client se sent valorisé. Nous nous spécialisons
-            dans les coupes de cheveux modernes, tout en ajoutant une touche
-            classique et individuelle au style de chacun. Oz est votre nouvelle
-            référence locale en terme de soins et de coiffure. Venez vivre une
-            expérience unique dans nos nouveaux salons; là où la vraie magie
-            opère.
+            dans les stations service Petrolex. Notre objectif principal est de
+            fournir à nos clients un service et une expérience irréprochable.
+            Nous offrons à nos clients une ambiance conviviale où chaque client
+            se sent valorisé. Nous nous spécialisons dans les coupes de cheveux
+            modernes, tout en ajoutant une touche classique et individuelle au
+            style de chacun. Oz est votre nouvelle référence locale en terme de
+            soins et de coiffure. Venez vivre une expérience unique dans nos
+            nouveaux salons; là où la vraie magie opère.
           </p>
         </div>
       </div>
