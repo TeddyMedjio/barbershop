@@ -83,7 +83,7 @@ const Navbar = () => {
         <li>
           <Link
             target="_blank"
-            href="https://wa.me/23799663863"
+            href="https://wa.me/23750019621"
             className="hover:text-gold transition-all duration-300 ease-in-out"
           >
             Réservez

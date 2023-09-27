@@ -59,7 +59,7 @@ const Header = () => {
             <Image src={Whatsapp} alt="icon whatsapp" />
 
             <div className="ml-4">
-              <p className="text-white font-semibold"> +237 6 99 66 38 63</p>
+              <p className="text-white font-semibold"> +237 6 56 66 01 03</p>
               <p className="text-light-gray text-xs">Service Client</p>
             </div>
           </div>

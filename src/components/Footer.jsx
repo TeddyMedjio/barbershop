@@ -14,7 +14,7 @@ const Footer = () => {
               <br /> BP 1590 Douala <br />{" "}
               <span className="text-gold"> Mail: </span>
               ozbarbershop237@gmail.com <br />
-              <span className="text-gold">Tél: </span> 6 99 66 38 63
+              <span className="text-gold">Tél: </span> 6 56 66 01 03
             </p>
             <div>
               <Link
