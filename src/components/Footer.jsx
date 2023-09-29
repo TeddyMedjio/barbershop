@@ -19,19 +19,22 @@ const Footer = () => {
             </p>
             <div>
               <Link
-                href="#"
+                target="_blank"
+                href="https://www.facebook.com/ozbarbershop.2023?mibextid=2JQ9oc"
                 className="text-white border border-gold hover:border-white hover:bg-[#3b5998] transition-all duration-700 ease-in-out px-5 py-1"
               >
                 Facebook
               </Link>
               <Link
-                href="#"
+                target="_blank"
+                href="https://instagram.com/ozbarbershop?igshid=OGQ5ZDc2ODk2ZA=="
                 className="text-white border border-gold hover:border-white hover:bg-gradient-to-br from-[#515BD4] via-[#8134AF] to-[#FEDA77] transition-all duration-700 ease-in-out px-5 py-1 ml-4"
               >
                 Instagram
               </Link>
               <Link
-                href="#"
+                target="_blank"
+                href="https://www.tiktok.com/@ozbarbershop?_t=8g4UpSkHuVC&_r=1"
                 className="text-white border border-gold hover:bg-gold transition-all duration-700 ease-in-out px-5 py-1 ml-4"
               >
                 Tiktok
